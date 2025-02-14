@@ -2,8 +2,9 @@ version: 2.1
 
 workflows:
   test-deploy:
-    jobs: your-test-job
-    
+    jobs:
+      - test
+
 jobs:
   test:
     docker:
