@@ -2,7 +2,7 @@ version: 2.1
 
 workflows:
   test-deploy:
-    jobs: test-job
+    jobs: your-test-job
     
 jobs:
   test:
