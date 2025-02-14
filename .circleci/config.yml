@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run: 
           name: Install Dependencies
-          command: apt-get install mvn
+          command: apt-get install mvn -y
       - run: 
           name: Run Tests
           command: mvn run test
